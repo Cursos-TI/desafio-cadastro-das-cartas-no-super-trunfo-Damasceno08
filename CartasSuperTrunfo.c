@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+int main() {
     char estado;
     int código;
     int cidade;
@@ -8,6 +8,8 @@ int main(){
     float area;
     float pib;
     int pontos;
+    float densidade;
+    float pib per capita;
 
     printf("Digite sua cidade: \n");
     scanf("%d" , &cidade);
@@ -15,11 +17,8 @@ int main(){
     printf("Digite o código: \n");
     scanf("%d" , &código);
 
-    printf("Digite o nome: \n");
-    scanf("%s" , &nome);
-
     printf("Digite a população: \n");
-    scanf("%s" , &população);
+    scanf("%d" , &população);
 
     printf("Digite a area: \n");
     scanf("%f" , &area);
@@ -27,8 +26,14 @@ int main(){
     printf("Digite o pib: \n");
     scanf("%f" , &pib);
 
-    print("Digite os pontos: \n");
-    scanf("%s" , &pontos);
+    printf("Digite os pontos: \n");
+    scanf("%d" , &pontos);
 
-    return 0;
+    printf("Digite a densidade: \n");
+    scanf("%f" , &densidade)
+
+    printf("Digite o pib per capite: \n");
+    scanf("%f" , &pibpercapite)
+
+return 0;
 }
