@@ -9,7 +9,7 @@ int main() {
     float pib;
     int pontos;
     float densidade;
-    float pib per capita;
+    float capita;
 
     printf("Digite sua cidade: \n");
     scanf("%d" , &cidade);
@@ -30,10 +30,10 @@ int main() {
     scanf("%d" , &pontos);
 
     printf("Digite a densidade: \n");
-    scanf("%f" , &densidade)
+    scanf("%f" , &densidade);
 
-    printf("Digite o pib per capite: \n");
-    scanf("%f" , &pibpercapite)
+    printf("Digite o capita: \n");
+    scanf("%f" , &capita);
 
 return 0;
 }
